@@ -1,0 +1,28 @@
+{
+  "name": "await-ws-ts",
+  "version": "1.0.0",
+  "description": "Simplify WebSockets by allowing you to await upon requests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "example": "ts-node example/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VolticFroogo/await-ws-ts"
+  },
+  "keywords": [],
+  "author": "Froogo",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/VolticFroogo/await-ws-ts/issues"
+  },
+  "homepage": "https://github.com/VolticFroogo/await-ws-ts",
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3",
+    "ws": "^7.3.1"
+  }
+}

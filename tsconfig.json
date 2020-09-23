@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"outDir": "./dist/",
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"removeComments": true,
+		"lib": [
+			"dom",
+			"es2015"
+		]
+	},
+	"include": [
+		"./src/"
+	]
+}

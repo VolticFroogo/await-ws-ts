@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"module": "ES2015",
+		"outDir": "./dist/",
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"removeComments": true,
+		"lib": [
+			"DOM",
+			"ES2015"
+		]
+	},
+	"include": [
+		"./"
+	]
+}
